@@ -31,3 +31,14 @@ This project was developed as part of the **Digisuraksha Parhari Foundation Inte
 - Simulates spoofed location inputs
 - Detects near-collision scenarios due to fake data injection
 
+  ⚖️ License & Disclaimer
+This project is licensed under the MIT License.
+Disclaimer: This tool is intended for educational and ethical research purposes only. Do not use it for any unauthorized or illegal activity.
+
+👥 Team Members
+Upasana Manoj Solanki
+Soham Shrikant Ghaware 
+Developed for the Digisuraksha Parhari Foundation Internship 2025
+
+
+
