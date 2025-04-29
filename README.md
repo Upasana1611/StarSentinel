@@ -2,8 +2,6 @@
 Space Systems Cybersecurity Toolkit: GNSS spoofing detection, SatCom scanner, and space traffic threat simulator.
 # 🌌 STARSentinel: Space Systems Cybersecurity Toolkit
 
-![banner](https://user-images.githubusercontent.com/yourbannerimage.png) <!-- Optional: Add a project image or remove this line -->
-
  📡 Overview
 
 **STARSentinel** is a Python-based toolkit designed to simulate and detect vulnerabilities in space systems cybersecurity. It includes three core modules:
