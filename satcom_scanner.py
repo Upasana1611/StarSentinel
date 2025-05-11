@@ -19,27 +19,27 @@ insecure_keywords = ["default password", "plaintext telemetry", "open access"]
 
 
 def scan_satcom_network():
-    print("🔍 Scanning simulated SatCom network...\n")
+    print(" Scanning simulated SatCom network...\n")
     for ip, info in satcom_devices.items():
         time.sleep(0.5)  # simulate scan time
         if info['open_ports']:
             print(f"[!] {ip} has open ports: {info['open_ports']} ({info['service']})")
         else:
-            print(f"[✓] {ip} appears secure (no services exposed)")
+            print(f" {ip} appears secure (no services exposed)")
     print()
 
 
 def check_tle_data():
-    print("🛰 Checking TLE format integrity...")
+    print(" Checking TLE format integrity...")
     if len(sample_tle) == 3 and sample_tle[1].startswith("1 ") and sample_tle[2].startswith("2 "):
-        print("✓ TLE format looks valid.")
+        print(" TLE format looks valid.")
     else:
-        print("⚠️ TLE data may be malformed.")
+        print(" TLE data may be malformed.")
     print()
 
 
 def scan_configurations():
-    print("🛠 Checking for insecure configurations...")
+    print(" Checking for insecure configurations...")
     config_example = """
     Device: SatCom-X1000
     Login: admin
@@ -55,8 +55,8 @@ def scan_configurations():
 
 # === MAIN ===
 if __name__ == "__main__":
-    print("📡 Satellite Communications Security Scanner Started\n")
+    print(" Satellite Communications Security Scanner Started\n")
     scan_satcom_network()
     check_tle_data()
     scan_configurations()
-    print("\n✅ Scan complete.")
+    print("\n Scan complete.")
