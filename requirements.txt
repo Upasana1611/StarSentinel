@@ -6,9 +6,10 @@ Download satcom_scanner.py
 Download space_traffic_sim.py
 Before executing the python file you need to install FLASK in your computer 
 Write the following code in command prompt:
-pip install flask
+--> pip install flask
+
 After installing we must run the following python file through command prompt:
-python app.py
+--> python app.py
 You'll find the following host url in command prompt:
 http://127.0.0.1:5000 (ctrl+click on the link to execute) 
 Now you will be redirected to the website.
