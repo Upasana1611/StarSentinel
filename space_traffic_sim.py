@@ -32,15 +32,15 @@ def distance_km(pos1, pos2):
 risk = distance_km(real_pos, spoofed_pos)
 
 # === Output
-print("🚀 Space Traffic Threat Simulation")
+print(" Space Traffic Threat Simulation")
 print(f"\nReal satellite position (km):     {real_pos}")
 print(f"Spoofed satellite position (km):  {spoofed_pos}")
-print(f"\n🚨 Distance between them: {risk:.2f} km")
+print(f"\n Distance between them: {risk:.2f} km")
 
 if risk < 50:
-    print("⚠️  Potential collision risk! Malicious spoof detected.")
+    print("️  Potential collision risk! Malicious spoof detected.")
 else:
-    print("✅ No immediate threat.")
+    print(" No immediate threat.")
 
 # === Optional: Plot
 fig = plt.figure()
