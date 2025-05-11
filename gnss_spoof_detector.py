@@ -28,9 +28,8 @@ def parse_gps_log(filename):
         for line in f:
             if line.startswith('$GPRMC'):  # Use RMC sentences
                 try:
-                    # ✅ This disables checksum validation (important for your test data)
                     msg = pynmea2.parse(line, check=False)
-                    print("✓ Parsed:", line.strip())
+                    print(" Parsed:", line.strip())
                     if msg.status != 'A':
                         continue  # Skip invalid data
 
@@ -58,12 +57,12 @@ def parse_gps_log(filename):
 
 # === MAIN ===
 if __name__ == "__main__":
-    print("🛰 GNSS Spoofing Detector Started")
+    print(" GNSS Spoofing Detector Started")
     flags = parse_gps_log(GPS_LOG_FILE)
 
     if flags:
-        print(f"\n🚨 Potential spoofing detected at {len(flags)} point(s):")
+        print(f"\n Potential spoofing detected at {len(flags)} point(s):")
         for f in flags:
             print(f"[{f['time']}] Distance jump: {f['distance']:.2f} m | Time gap: {f['delta_time']:.2f}s | Location: {f['location']}")
     else:
-        print("✅ No spoofing detected.")
+        print(" No spoofing detected.")
