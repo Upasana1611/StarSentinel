@@ -1,4 +1,9 @@
-First things first, we need to save all the given python and text files in the same folder at any location. 
+First things first
+Download app.py
+Download gnss_spoof_detector.py
+Download sample_gps_log.txt
+Download satcom_scanner.py
+Download space_traffic_sim.py
 Before executing the python file you need to install FLASK in your computer 
 Write the following code in command prompt:
 pip install flask
