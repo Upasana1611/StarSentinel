@@ -1,11 +1,10 @@
 First things first, we need to save all the given python and text files in the same folder at any location. 
-After saving we need to download FLASK.
 Before executing the python file you need to install FLASK in your computer 
 Write the following code in command prompt:
 pip install flask
-After installing we must run the following python fil through command prompt:
+After installing we must run the following python file through command prompt:
 python app.py
 You'll find the following host url in command prompt:
 http://127.0.0.1:5000 (ctrl+click on the link to execute) 
-now you will be redirected to the website.
+Now you will be redirected to the website.
 Explore and Enjoy!!!!!!!
