@@ -1,44 +1,32 @@
-# StarSentinel
-Space Systems Cybersecurity Toolkit: GNSS spoofing detection, SatCom scanner, and space traffic threat simulator.
-# 🌌 STARSentinel: Space Systems Cybersecurity Toolkit
+🛰️ Project Summary – StarSentinel: Space Systems Cybersecurity Toolkit
+StarSentinel is a Python-based cybersecurity toolkit designed to simulate and detect threats in space systems, including satellite communication, GNSS (Global Navigation Satellite Systems), and orbital traffic control. With space technology becoming a critical part of national infrastructure, this project addresses the rising need for space-focused cybersecurity tools and awareness.
 
- 📡 Overview
+Toolkit Includes:
+🔍 GNSS Spoofing Detector – Detects fake or manipulated GPS signal logs.
 
-**STARSentinel** is a Python-based toolkit designed to simulate and detect vulnerabilities in space systems cybersecurity. It includes three core modules:
+📡 SatCom Security Scanner – Simulates scanning and identification of insecure satellite communication patterns.
 
-- 🛰 **GNSS Spoofing Detection**  
-- 📡 **Satellite Communications Security Scanner**  
-- 🚀 **Space Traffic Control Threat Simulator**
+🚦 Space Traffic Threat Simulator – Models cyber attack scenarios in orbital traffic control and collision avoidance systems.
 
-This project was developed as part of the **Digisuraksha Parhari Foundation Internship 2025** to showcase cybersecurity research and practical threat modeling in the domain of space-based systems.
+The goal is to offer a hands-on educational platform for cybersecurity learners and researchers to explore real-world vulnerabilities in space technologies.
 
+👥 Team & Contributions
+🔹 Upasana [Lead Developer & Researcher]
+Selected the project theme and defined the scope.
 
+Conducted in-depth research on space cybersecurity threats.
 
- 🔧 Features
+Developed the entire toolkit (3 tools using Python and Flask).
 
- 1. GNSS Spoofing Detection
-- Parses GPS logs (NMEA format)
-- Detects sudden jumps in position/time
-- Flags spoofing behavior using signal consistency checks
+Designed the project structure and created the GitHub repository.
 
- 2. Satellite Comms Security Scanner
-- Simulates scanning satellite IP/service range
-- Analyzes TLE (Two-Line Element) data integrity
-- Flags weak or exposed SatCom links
+Authored the final research report and structured the project folders.
 
- 3. Space Traffic Control Threat Simulator
-- Uses NORAD TLE data to track satellite positions
-- Simulates spoofed location inputs
-- Detects near-collision scenarios due to fake data injection
+Documented the toolkit with installation instructions and user guide.
 
-  ⚖️ License & Disclaimer
-This project is licensed under the MIT License.
-Disclaimer: This tool is intended for educational and ethical research purposes only. Do not use it for any unauthorized or illegal activity.
+🔹 Soham Ghaware [Presentation & Media Lead]
+Co-developed the project presentation, contributing to content and design.
 
-👥 Team Members
-Upasana Manoj Solanki
-Soham Shrikant Ghaware 
-Developed for the Digisuraksha Parhari Foundation Internship 2025
+Created and edited the demo video showcasing the working of the toolkit.
 
-
-
+Provided feedback and support throughout the project planning and execution phases.
