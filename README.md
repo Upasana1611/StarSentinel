@@ -1,35 +1,45 @@
-🚀 STARSentinel
+# 🚀 STARSentinel
 
-STARSentinel is a cybersecurity tool focused on enhancing the safety and resilience of space-based systems. It provides threat detection and analysis for GNSS spoofing, SatCom vulnerabilities, and space traffic anomalies. This project was developed as part of the Digisuraksha Parhari Foundation internship program.
-🛰️ Core Features
-1. GNSS Spoofing Detection
-Identifies inconsistencies in GNSS signal data.
-Alerts on suspected spoofed coordinates or timing data.
+**STARSentinel** is a Python-based cybersecurity tool designed to protect space systems from emerging threats. It focuses on three critical domains: **GNSS Spoofing Detection**, **Satellite Communication (SatCom) Scanning**, and **Space Traffic Threat Simulation**. Developed for the **Digisuraksha Parhari Foundation Internship Program**, this project aims to bridge cybersecurity with the growing challenges of outer space technology.
 
-2. SatCom Security Scanning
-Analyzes satellite communication protocols.
+---
 
-Flags insecure configurations and common vulnerabilities.
+## 🛰️ Key Features
 
-3. Space Traffic Threat Simulation
-Models and visualizes potential space threats like jamming, spoofing, and orbital collisions.
+### 🧭 GNSS Spoofing Detection
+- Detects fake or manipulated GNSS signals using data validation techniques.
+- Real-time location consistency checks and spoof alerting.
+- Visual dashboard to track signal anomalies.
 
-🛠️ Built With
-Python – Core programming language.
+### 📡 SatCom Security Scanner
+- Analyzes satellite communication data for vulnerabilities.
+- Detects misconfigurations, weak protocols, and possible intrusions.
+- Designed for extensibility with other SatCom datasets.
 
-Flask – Web framework for serving APIs and visualizations.
+### ☄️ Space Traffic Threat Simulator
+- Simulates orbital threats like jamming, spoofing, and satellite collisions.
+- Helps visualize how cyberattacks can impact space traffic.
+- Educational tool for space cybersecurity awareness.
 
-🧪 Installation & Setup
-Clone the repository
+---
+
+## 🛠️ Tech Stack
+
+| Tech        | Usage                              |
+|-------------|-------------------------------------|
+| Python      | Core programming language           |
+| Flask       | Web framework for APIs & dashboard  |
+| HTML/CSS    | UI rendering (Flask templates)      |
+| Matplotlib  | Basic visualizations (optional)     |
+
+---
+
+## 🔧 Installation
+
+### 🐍 Using Python
+
+```bash
 git clone https://github.com/yourusername/STARSentinel.git
 cd STARSentinel
-Install dependencies
 pip install -r requirements.txt
-Run the Flask server
 python app.py
-👥 Authors
-Upasana Manoj Solanki 
-
-Soham Shrikant Ghaware 
-📜 License
-This project is licensed under the MIT License.
