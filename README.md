@@ -37,21 +37,21 @@
 ## 🔧 Installation
 
 ### 🐍 Using Python
-
-
 ```
 git clone https://github.com/yourusername/STARSentinel.git
 cd STARSentinel
 pip install -r requirements.txt
 python app.py
-👨‍💻 Authors
-Upasana Manoj Solanki 
+``` 
+### 👩‍💻 Authors  
+- Upasana Manoj Solanki  
+- Soham Shrikant Ghaware  
 
-Soham Shrikant Ghaware
+This project was developed as part of the **Digisuraksha Parhari Foundation Internship Program**.
 
-This project was developed as part of the Digisuraksha Parhari Foundation Internship Program.
+---
 
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
+### 📜 License
 
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for more details.
