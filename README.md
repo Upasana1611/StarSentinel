@@ -1,32 +1,35 @@
-🛰️ Project Summary – StarSentinel: Space Systems Cybersecurity Toolkit
-StarSentinel is a Python-based cybersecurity toolkit designed to simulate and detect threats in space systems, including satellite communication, GNSS (Global Navigation Satellite Systems), and orbital traffic control. With space technology becoming a critical part of national infrastructure, this project addresses the rising need for space-focused cybersecurity tools and awareness.
+🚀 STARSentinel
+STARSentinel is a cybersecurity tool focused on enhancing the safety and resilience of space-based systems. It provides threat detection and analysis for GNSS spoofing, SatCom vulnerabilities, and space traffic anomalies. This project was developed as part of the Digisuraksha Parhari Foundation internship program.
+🛰️ Core Features
+1. GNSS Spoofing Detection
+Identifies inconsistencies in GNSS signal data.
 
-Toolkit Includes:
-🔍 GNSS Spoofing Detector – Detects fake or manipulated GPS signal logs.
+Alerts on suspected spoofed coordinates or timing data.
 
-📡 SatCom Security Scanner – Simulates scanning and identification of insecure satellite communication patterns.
+2. SatCom Security Scanning
+Analyzes satellite communication protocols.
 
-🚦 Space Traffic Threat Simulator – Models cyber attack scenarios in orbital traffic control and collision avoidance systems.
+Flags insecure configurations and common vulnerabilities.
 
-The goal is to offer a hands-on educational platform for cybersecurity learners and researchers to explore real-world vulnerabilities in space technologies.
+3. Space Traffic Threat Simulation
+Models and visualizes potential space threats like jamming, spoofing, and orbital collisions.
 
-👥 Team & Contributions
-🔹 Upasana [Lead Developer & Researcher]
-Selected the project theme and defined the scope.
+🛠️ Built With
+Python – Core programming language.
 
-Conducted in-depth research on space cybersecurity threats.
+Flask – Web framework for serving APIs and visualizations.
 
-Developed the entire toolkit (3 tools using Python and Flask).
+🧪 Installation & Setup
+Clone the repository
+git clone https://github.com/yourusername/STARSentinel.git
+cd STARSentinel
+Install dependencies
+pip install -r requirements.txt
+Run the Flask server
+python app.py
+👥 Authors
+Upasana Manoj Solanki 
 
-Designed the project structure and created the GitHub repository.
-
-Authored the final research report and structured the project folders.
-
-Documented the toolkit with installation instructions and user guide.
-
-🔹 Soham Ghaware [Presentation & Media Lead]
-Co-developed the project presentation, contributing to content and design.
-
-Created and edited the demo video showcasing the working of the toolkit.
-
-Provided feedback and support throughout the project planning and execution phases.
+Soham Shrikant Ghaware 
+📜 License
+This project is licensed under the MIT License.
