@@ -1,9 +1,9 @@
 🚀 STARSentinel
+
 STARSentinel is a cybersecurity tool focused on enhancing the safety and resilience of space-based systems. It provides threat detection and analysis for GNSS spoofing, SatCom vulnerabilities, and space traffic anomalies. This project was developed as part of the Digisuraksha Parhari Foundation internship program.
 🛰️ Core Features
 1. GNSS Spoofing Detection
 Identifies inconsistencies in GNSS signal data.
-
 Alerts on suspected spoofed coordinates or timing data.
 
 2. SatCom Security Scanning
