@@ -2,4 +2,4 @@ flask
 pynmea2
 skyfield
 matplotlib
-
+gunicorn
