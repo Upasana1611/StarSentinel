@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STARSentinel Toolkit</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-image: url("/static/spacebg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 30px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        textarea {
+            width: 90%;
+            height: 300px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 STARSentinel Toolkit</h1>
+    <form method="POST" action="/run">
+        <button name="script" value="gnss">🛰 Run GNSS Detector</button>
+        <button name="script" value="satcom">📡 Run SatCom Scanner</button>
+        <button name="script" value="space">🚀 Run Space Traffic Simulator</button>
+    </form>
+
+    {% if output %}
+    <h2>🔍 Output:</h2>
+    <textarea readonly>{{ output }}</textarea>
+    {% endif %}
+</body>
+</html>
